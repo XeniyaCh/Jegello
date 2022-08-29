@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css2?family=Anek+Telugu&family=Lato&family=Open+Sans:wght@300;400&family=Roboto&display=swap");
+
+body {
+  background-color: rgb(73, 73, 3);
+  font-family: "Anek Telugu", sans-serif;
+  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: white;
+  padding-left: 40px;
+  text-decoration: none;
+  letter-spacing: 1.2px;
+  word-spacing: 1px;
+}
+
+.container {
+  max-width: 60%;
+}
+
+img {
+  margin-top: 35px;
+  border-radius: 50%;
+  box-shadow: 5px 5px 10px white;
+}
+
+h1 {
+  color: gold;
+  letter-spacing: 3px;
+}
+
+.info p {
+  padding-top: 0%;
+  padding-bottom: 3%;
+  margin-top: 8px;
+  margin-bottom: 0px;
+  font-style: italic;
+}
+
+/*box-model*/
+.card {
+  background: olivedrab;
+  border-radius: 0px 20px 20px 0px;
+  margin-top: 50px;
+  padding: 10px 0 10px 15px;
+}
+.card h2 {
+  margin: 15px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+.card h3 {
+  margin: 15px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  color: darkslategray;
+}
+
+.card li {
+  padding-top: 10px;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: darkslategray;
+}
+/*ко всем ссылкам докмента*/
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: mistyrose;
+}
+
+a:visited {
+  color: white;
+}
+
+.cardto {
+  background: yellowgreen;
+  border-radius: 0px 20px 20px 0px;
+  margin-top: 50px;
+  padding: 10px 0 10px 15px;
+}
+
+.cardto h2 {
+  margin: 15px 0px 0px 0px;
+  padding: 0px 0px 10px 0px;
+  color: white;
+}
+
+.cardto h3 {
+  margin: 15px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  color: white;
+}
+
+.cardto p {
+  margin: 0px;
+  padding: 0px;
+  color: darkslategray;
+}
+
+.cardto ol {
+  margin-top: 0px;
+  padding-top: 0px;
+  list-style: none;
+}
+
+.cardto li {
+  padding-top: 10px;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+.cardthry {
+  background: gold;
+  border-radius: 0px 20px 20px 0px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  padding: 10px 0 35px 15px;
+}
+
+.cardthry h2 {
+  margin: 15px 0px 0px 0px;
+  padding: 0px 0px 10px 0px;
+}
+
+.cardthry p {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.cardthry a {
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  color: darkslategray;
+}
+
+.praca h2 {
+  margin-left: 20px;
+}
+
+table td {
+  padding-bottom: 15px;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 10px;
+}
+
+table td:nth-child(1) {
+  color: gold;
+}
+
+table td:nth-child(3) {
+  color: gold;
+}
+
+table tr:nth-child(odd) {
+  background-color: darkslategray;
+}
+
+.contact h3 {
+  margin-top: 80px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  padding-bottom: 5px;
+  margin-top: 10px;
+}
+
+.form-group input {
+  border: 1px solid gray;
+  background: transparent;
+  padding: 5px;
+  box-sizing: border-box;
+  font-family: inherit;
+  width: 100%;
+}
+
+.comments label {
+  display: block;
+  font-size: 14px;
+  padding-bottom: 5px;
+  margin-top: 35px;
+}
+
+.comments textarea {
+  border: 1px solid gray;
+  background: transparent;
+  padding: 5px;
+  box-sizing: border-box;
+  font-family: inherit;
+  width: 60%;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.row > .form-group {
+  width: 40%;
+  box-sizing: border-box;
+}
+
+.row > .form-group:first-child {
+  margin-right: 10px;
+}
+
+.comments {
+  text-align: center;
+}
+
+.btn {
+  background: gold;
+  border-radius: 8%;
+  color: darkslategray;
+  cursor: pointer;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  padding: 5px 10px;
+}
+
+.btn:hover {
+  opacity: 0.6;
+}
+
+.aboutme {
+  display: flex;
+  align-items: center;
+}
+
+.aboutme > .info-text {
+  margin-left: 50px;
+}
+
+.btn-box {
+  display: flex;
+  justify-content: center;
+}
